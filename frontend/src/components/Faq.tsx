@@ -64,12 +64,6 @@ export default function Faq() {
             <p className="mt-4 max-w-[360px] text-lg leading-8 text-white/60">
               How arguments become markets, who decides the outcome, and how you get paid.
             </p>
-            <a
-              href="#faq"
-              className="steel-border mt-8 inline-flex h-11 items-center rounded-full px-6 transition-colors hover:text-brand"
-            >
-              Read the docs
-            </a>
           </div>
 
           <ul className="border-t border-white/10">

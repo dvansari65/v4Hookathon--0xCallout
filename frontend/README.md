@@ -35,7 +35,7 @@ The **App secret** is for servers only. Never put it in a `NEXT_PUBLIC_` variabl
 | `npm run dev`   | Dev server with hot reload       |
 | `npm run build` | Production build                 |
 | `npm run start` | Serve the production build       |
-| `npm run lint`  | ESLint                           |
+| `npm run lint`  | ESLint, plus a check that `src/lib/protocol.ts` fees match the contract |
 
 ## Layout
 

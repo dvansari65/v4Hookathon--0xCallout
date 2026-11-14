@@ -86,7 +86,9 @@ function WalletButton() {
         onClick={() => switchChain({ chainId: appChain.id })}
         className={`${primaryPill} disabled:opacity-60`}
       >
-        Switch to {appChain.name}
+        {/* Phones get a short label so it fits beside the logo and menu button. */}
+        <span className="sm:hidden">Switch network</span>
+        <span className="hidden sm:inline">Switch to {appChain.name}</span>
       </button>
     );
   }
