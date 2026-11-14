@@ -4,7 +4,8 @@ Landing page and wallet sign-in for Multiverse Markets, which turns Farcaster ar
 into prediction markets on Uniswap V4, resolved by Chainlink CRE.
 
 Next.js 16 (App Router, Turbopack), React 19, Tailwind CSS 4, GSAP + Lenis for scroll
-motion, and Privy + wagmi for sign-in and wallets on Base Sepolia.
+motion, and Privy + wagmi for sign-in and wallets on Arbitrum Sepolia, where the
+contracts are deployed.
 
 ## Getting started
 

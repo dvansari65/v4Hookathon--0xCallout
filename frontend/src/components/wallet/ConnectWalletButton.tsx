@@ -15,7 +15,7 @@ const WALLET_SYNC_GRACE_MS = 3000;
 /**
  * The navbar's wallet control, one step at a time:
  * Sign in → (signed in, no wallet in this browser) Connect Wallet →
- * (wrong network) Switch to Base Sepolia → account menu.
+ * (wrong network) Switch to the app chain → account menu.
  */
 export default function ConnectWalletButton() {
   if (!privyAppId) {
